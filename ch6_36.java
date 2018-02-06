@@ -21,7 +21,7 @@ public class ch6_36 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the number of sides: ");
 		int n = input.nextInt();
-		System.out.println("Enter the sides: ");
+		System.out.println("Enter the sides of a regular polygon: ");
 		double side = input.nextDouble();
 		
 		System.out.println("The area of the polygon is " + area(n, side));
